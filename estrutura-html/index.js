@@ -1,10 +1,10 @@
 function onLoad () {
-    // 1o
-    // console.log(
-    //     `Carregou a tela!!`, Tela, JogoDaMemoria
-    // )
-    
-    /*
+  // 1o
+  // console.log(
+  //     `Carregou a tela!!`, Tela, JogoDaMemoria
+  // )
+
+  /*
     2o
     const heroi = {
         img: './arquivos/batman.png',
@@ -13,12 +13,12 @@ function onLoad () {
     const codigoHtml = Tela.setTemplate(heroi)
     Tela.alterarConteudoHTML(codigoHtml.concat(codigoHtml).concat(codigoHtml))
     */
-   const dependencias = {
-       tela: Tela
-   }
+  const dependencias = {
+    tela: Tela
+  }
 
-   const jogoDaMemoria = new JogoDaMemoria(dependencias)
-   jogoDaMemoria.inicializar()
+  const jogoDaMemoria = new JogoDaMemoria(dependencias)
+  jogoDaMemoria.inicializar()
 }
 
 window.onload = onLoad
